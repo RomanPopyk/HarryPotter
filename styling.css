@@ -1,6 +1,9 @@
 body {
     background-color: black;
     color: white;
+    font-family: Calibri, "Trebuchet MS", sans-serif;
+    font-size: 1rem;
+    margin: 0px;
 }
 .banner {
     background-image: url(Files/banner.jpg);
@@ -17,12 +20,10 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
-nav li {
+nav ul li a {
     color: white;
-    font-size: bold;
+    text-decoration: none;
 }
 h2 {
     text-align: center;
