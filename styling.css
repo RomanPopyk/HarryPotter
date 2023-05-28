@@ -6,13 +6,18 @@ body {
     margin: 0px;
 }
 .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(Files/banner.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
     height: 80vh;
+    background-repeat: no-repeat;
 }
 .banner-text {
     font-weight: bold;
-    font-size: 2rem;
+    font-family: Calibri, "Trebuchet MS", sans-serif;
+    font-size: 5rem;
     text-align: center;
 }
 nav ul {
@@ -27,14 +32,19 @@ nav ul li a {
 }
 h2 {
     text-align: center;
+    margin-top: 3rem;
+    font-size: 1.5em;
 }
-.flex {
+.contentRow {
     display: flex;
-    flex-flow: column wrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+    margin: 25px 30px;
 }
-.flex-image {
-    width: 200px;
-    height: 300px;
-    margin: 0;
-    padding: 0;
+.flex-image, .flex-text {
+    width: 37%;
+    height: 22%;
+}
+.flex-text {
+    margin-top: -1rem;
 }
